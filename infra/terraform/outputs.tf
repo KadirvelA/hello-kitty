@@ -23,32 +23,26 @@ output "aws_lambda_guru_days_ak_invoke_arn" {
 }
 
 
-output "aws_s3_guru_days_ak_arn" {
+output "aws_s3_gurudaysak_arn" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.arn
   sensitive = false
 }
 
 
-output "aws_s3_guru_days_ak_bucket_name" {
+output "aws_s3_gurudaysak_bucket_name" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_name
   sensitive = false
 }
 
 
-output "aws_s3_guru_days_ak_bucket_website_endpoint" {
+output "aws_s3_gurudaysak_bucket_website_endpoint" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_website_endpoint
   sensitive = false
 }
 
 
-output "aws_s3_guru_days_ak_kms_arn" {
+output "aws_s3_gurudaysak_kms_arn" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
-  sensitive = false
-}
-
-
-output "aws_iam_role_guru_days_ak_name" {
-  value = module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.name
   sensitive = false
 }
 
@@ -59,13 +53,19 @@ output "aws_iam_role_guru_days_ak_arn" {
 }
 
 
-output "aws_cloudwatch_log_group_guru_days_ak_name" {
-  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name
+output "aws_iam_role_guru_days_ak_name" {
+  value = module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.name
   sensitive = false
 }
 
 
 output "aws_cloudwatch_log_group_guru_days_ak_arn" {
   value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.arn
+  sensitive = false
+}
+
+
+output "aws_cloudwatch_log_group_guru_days_ak_name" {
+  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name
   sensitive = false
 }

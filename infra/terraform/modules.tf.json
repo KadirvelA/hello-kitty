@@ -19,7 +19,7 @@
       "memory_size": 128,
       "role": "${module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.arn}",
       "runtime": "python3.8",
-      "s3_bucket": "gueu_days_ak3",
+      "s3_bucket": "gurudaysak",
       "s3_key": "build/",
       "s3_object_version": null,
       "source": "./modules/aws_lambda",
@@ -32,7 +32,7 @@
     },
     "appcd_551e1d2b-88ec-5406-87cf-c51521bbe894": {
       "block_public_access": true,
-      "bucket_name": "guru_days_ak",
+      "bucket_name": "gurudaysak",
       "bucket_policy": "",
       "enable_versioning": true,
       "enable_website_configuration": false,
